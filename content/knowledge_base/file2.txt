@@ -1,0 +1,1 @@
+"Service Level Agreement (SLA): A contract between a service provider and client defining the expected level of service, performance metrics, and remedies for non-compliance."

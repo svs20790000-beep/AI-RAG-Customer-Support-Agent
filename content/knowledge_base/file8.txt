@@ -1,0 +1,10 @@
+"Non-Disclosure Agreement (NDA): A contract that ensures confidential information shared between parties is not disclosed to unauthorized third parties.",
+"Service Level Agreement (SLA): A contract between a service provider and client defining the expected level of service, performance metrics, and remedies for non-compliance.",
+"Employment Agreement: A legally binding contract that outlines the terms and conditions of employment, including job role, compensation, and termination clauses.",
+"Partnership Agreement: A document that governs the relationship between two or more partners in a business, defining profit-sharing, responsibilities, and dispute resolution.",
+"Lease Agreement: A contract between a landlord and tenant granting the tenant the right to use property for a specified time in exchange for rent.",
+"Franchise Agreement: A contract that allows one party (franchisee) to use the brand, business model, and intellectual property of another party (franchisor) in exchange for fees or royalties.",
+"Sales Agreement: A legally binding contract between a buyer and seller that defines the terms of the sale of goods or services.",
+"Loan Agreement: A contract between a lender and borrower specifying the loan amount, repayment schedule, interest rate, and default consequences.",
+"Joint Venture Agreement: A contract between two or more parties to collaborate on a specific project while sharing profits, losses, and responsibilities.",
+"Settlement Agreement: A legal document that resolves a dispute between parties without admitting fault, usually involving compensation or corrective action."
