@@ -18,8 +18,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 st.title('AI-Powered Retrieval-Augmented Generation (RAG) Customer Support Agent')
 #load the huggingface model
-question_encoder=DPRQuestionEncoder.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
-question_tokenizer=DPRQuestionEncoderTokenizer.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
+#question_encoder=DPRQuestionEncoder.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
+#question_tokenizer=DPRQuestionEncoderTokenizer.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
 context_encoder=DPRContextEncoder.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
 context_tokenizer=DPRContextEncoderTokenizer.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
 rag_model=AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-base')
@@ -74,7 +74,7 @@ def chat():
     response=generate_response(query)
     print(f'GPT: {response}')
 with st.form('my_form') :
-  text=st.text_area('Hi Ask me...','...') 
+  text=st.text_area('Hi Ask me..','...') 
   submitted = st.form_submit_button('Submit')
   if submitted:
     response=generate_response(text)
