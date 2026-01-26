@@ -47,8 +47,10 @@ faiss_index=faiss.IndexFlatL2(dimension)
 faiss_index.add(doc_embeddings)
 #query processing and retrieval process
 def retrieve_top_k(query,k=2):
-  query_inputs=question_tokenizer(query,return_tensors='pt')
-  query_embeddings=question_encoder(**query_inputs).pooler_output.detach().numpy()
+  #query_inputs=question_tokenizer(query,return_tensors='pt')
+  query_inputs=context_tokenizer(query,return_tensors='pt')
+  #query_embeddings=question_encoder(**query_inputs).pooler_output.detach().numpy()
+  query_embeddings=context_encoder(**query_inputs).pooler_output.detach().numpy()
   distances,indices=faiss_index.search(query_embeddings,k)
   retrieved_docs=[content[i] for i in indices[0]]
   return retrieved_docs
