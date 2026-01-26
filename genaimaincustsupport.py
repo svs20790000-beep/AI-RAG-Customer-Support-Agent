@@ -37,7 +37,7 @@ doc_embeddings=[]
 inputs=context_tokenizer(content,return_tensors='pt',padding=True)
 embedding=context_encoder(**inputs).pooler_output.detach().numpy()
 doc_embeddings.append(embedding)
-print(doc_embeddings)
+#print(doc_embeddings)
 doc_embeddings = np.array(doc_embeddings)
 doc_embeddings.shape[1]
 doc_embeddings=np.vstack(doc_embeddings)
@@ -72,7 +72,7 @@ def chat():
     response=generate_response(query)
     print(f'GPT: {response}')
 with st.form('my_form') :
-  text=st.text_area('Hi Ask me anything','...') 
+  text=st.text_area('Hi Ask me...','...') 
   submitted = st.form_submit_button('Submit')
   if submitted:
     response=generate_response(text)
