@@ -7,7 +7,6 @@ langchain-core==1.2.7
 langchain-openai==1.1.7
 langchain-text-splitters==1.1.0
 matplotlib==3.10.6
-matplotlib-base==3.10.6 
 matplotlib-inline==0.2.1 
 numexpr==2.14.1  
 numpy==2.4.1
