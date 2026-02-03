@@ -14,7 +14,6 @@ numpydoc==1.9.0
 openai==2.15.0   
 pandas==2.3.3 
 pip==25.3
-python==3.13.9
 safetensors==0.7.0  
 scikit-learn==1.7.2                           
 streamlit==1.51.0
