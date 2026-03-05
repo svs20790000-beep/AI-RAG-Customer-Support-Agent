@@ -1,0 +1,421 @@
+2026-02-28 17:07:34,321 - INFO - System initialized. Using device: cpu
+2026-02-28 17:07:34,338 - INFO - Loading models into memory...
+2026-02-28 17:07:45,927 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-02-28 17:07:45,928 - INFO - Scanning for .txt files...
+2026-02-28 17:07:45,948 - INFO - Found 10 files with extension .txt
+2026-02-28 17:07:45,959 - INFO - Scanning for .pdf files...
+2026-02-28 17:07:46,534 - INFO - Found 16 files with extension .pdf
+2026-02-28 17:07:46,862 - INFO - Split documents into 40 chunks.
+2026-02-28 17:07:46,862 - INFO - Starting vectorization (embedding) on cpu...
+2026-02-28 17:07:59,390 - INFO - FAISS index built and ready.
+2026-03-01 15:49:31,453 - INFO - System initialized. Using device: cpu
+2026-03-01 15:51:35,642 - INFO - System initialized. Using device: cpu
+2026-03-01 15:51:35,643 - INFO - Loading models into memory...
+2026-03-01 15:51:42,877 - ERROR - Error loading models: name 'DEVICE' is not defined
+2026-03-01 15:56:58,137 - INFO - System initialized. Using device: cpu
+2026-03-01 15:56:58,137 - INFO - Loading models into memory...
+2026-03-01 15:57:13,952 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-01 16:03:06,869 - INFO - System initialized. Using device: cpu
+2026-03-01 16:03:07,306 - INFO - Loading models into memory...
+2026-03-01 16:03:24,984 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-01 16:11:11,253 - INFO - System initialized. Using device: cpu
+2026-03-01 16:11:11,704 - INFO - Loading models into memory...
+2026-03-01 16:11:24,137 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-01 16:11:24,139 - INFO - Scanning for .txt files...
+2026-03-01 16:11:24,282 - INFO - Found 10 files with extension .txt
+2026-03-01 16:11:24,296 - INFO - Scanning for .pdf files...
+2026-03-01 16:11:25,165 - INFO - Found 16 files with extension .pdf
+2026-03-01 16:11:25,431 - INFO - Split documents into 40 chunks.
+2026-03-01 16:11:25,431 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-01 17:37:21,697 - INFO - Loading models into memory...
+2026-03-01 17:37:28,326 - ERROR - Error loading models: name 'self' is not defined
+2026-03-01 17:49:43,189 - INFO - Loading models into memory...
+2026-03-01 17:49:48,367 - ERROR - Error loading models: name 'self' is not defined
+2026-03-01 17:54:30,411 - INFO - Loading models into memory...
+2026-03-01 18:27:06,729 - INFO - Loading models into memory...
+2026-03-02 09:50:06,845 - INFO - Loading models into memory...
+2026-03-02 09:55:44,525 - INFO - Loading models into memory...
+2026-03-02 09:56:01,010 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:04:18,087 - INFO - Loading models into memory...
+2026-03-02 10:04:31,206 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:04:31,208 - INFO - Scanning for .txt files...
+2026-03-02 10:04:31,406 - INFO - Found 10 files with extension .txt
+2026-03-02 10:04:31,417 - INFO - Scanning for .pdf files...
+2026-03-02 10:04:33,179 - INFO - Found 16 files with extension .pdf
+2026-03-02 10:04:33,859 - INFO - Split documents into 40 chunks.
+2026-03-02 10:04:33,860 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 10:04:50,567 - INFO - FAISS index built and ready.
+2026-03-02 10:04:50,576 - INFO - System initialized. Using device: cpu
+2026-03-02 10:06:36,619 - INFO - User query received: loan agreement
+2026-03-02 10:06:36,620 - INFO - Retrieving top 3 contexts for query: 'loan agreement'
+2026-03-02 10:06:36,790 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:06:36,791 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:06:36,794 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:07:04,785 - INFO - User query received: lease agreement
+2026-03-02 10:07:04,786 - INFO - Retrieving top 3 contexts for query: 'lease agreement'
+2026-03-02 10:07:04,952 - INFO - Retrieved 3 chunks. Min distance: 70.12998962402344
+2026-03-02 10:07:04,953 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:07:04,956 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:15:57,719 - INFO - Loading models into memory...
+2026-03-02 10:16:11,927 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:16:11,932 - INFO - Scanning for .txt files...
+2026-03-02 10:16:12,032 - INFO - Found 10 files with extension .txt
+2026-03-02 10:16:12,044 - INFO - Scanning for .pdf files...
+2026-03-02 10:16:12,888 - INFO - Found 16 files with extension .pdf
+2026-03-02 10:16:13,156 - INFO - Split documents into 40 chunks.
+2026-03-02 10:16:13,156 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 10:16:25,577 - INFO - FAISS index built and ready.
+2026-03-02 10:16:25,661 - INFO - System initialized. Using device: cpu
+2026-03-02 10:17:10,975 - INFO - User query received: Loan Agreement
+2026-03-02 10:17:10,976 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 10:17:11,167 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:17:11,167 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:17:11,170 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:20:27,507 - INFO - Loading models into memory...
+2026-03-02 10:20:40,096 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:20:40,098 - INFO - Scanning for .txt files...
+2026-03-02 10:20:40,126 - INFO - Found 10 files with extension .txt
+2026-03-02 10:20:40,136 - INFO - Scanning for .pdf files...
+2026-03-02 10:20:40,832 - INFO - Found 16 files with extension .pdf
+2026-03-02 10:20:41,237 - INFO - Split documents into 40 chunks.
+2026-03-02 10:20:41,237 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 10:20:51,406 - INFO - FAISS index built and ready.
+2026-03-02 10:20:51,431 - INFO - System initialized. Using device: cpu
+2026-03-02 10:22:28,352 - INFO - User query received: Loan Agreement
+2026-03-02 10:22:28,352 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 10:22:28,518 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:22:28,518 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:22:28,521 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:29:20,162 - INFO - Loading models into memory...
+2026-03-02 10:29:33,841 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:29:33,843 - INFO - Scanning for .txt files...
+2026-03-02 10:29:33,867 - INFO - Found 10 files with extension .txt
+2026-03-02 10:29:33,876 - INFO - Scanning for .pdf files...
+2026-03-02 10:29:34,489 - INFO - Found 16 files with extension .pdf
+2026-03-02 10:29:34,767 - INFO - Split documents into 40 chunks.
+2026-03-02 10:29:34,767 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 10:29:46,249 - INFO - FAISS index built and ready.
+2026-03-02 10:29:46,276 - INFO - System initialized. Using device: cpu
+2026-03-02 10:31:23,456 - INFO - User query received: Loan Agreement
+2026-03-02 10:31:23,458 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 10:31:23,583 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:31:23,584 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:31:23,585 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:31:33,042 - INFO - User query received: Loan Agreement
+2026-03-02 10:31:33,043 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 10:31:33,162 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:31:33,163 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:31:33,164 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:31:44,670 - INFO - User query received: Intrduction
+2026-03-02 10:31:44,671 - INFO - Retrieving top 3 contexts for query: 'Intrduction'
+2026-03-02 10:31:44,793 - INFO - Retrieved 3 chunks. Min distance: 130.75369262695312
+2026-03-02 10:31:44,793 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:31:44,795 - ERROR - Generation error: name 'gen_tok' is not defined
+2026-03-02 10:37:31,283 - INFO - Loading models into memory...
+2026-03-02 10:37:43,448 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:37:43,453 - INFO - Scanning for .txt files...
+2026-03-02 10:37:43,620 - INFO - Found 10 files with extension .txt
+2026-03-02 10:37:43,633 - INFO - Scanning for .pdf files...
+2026-03-02 10:37:44,686 - INFO - Found 16 files with extension .pdf
+2026-03-02 10:37:45,095 - INFO - Split documents into 40 chunks.
+2026-03-02 10:37:45,095 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 10:37:54,708 - INFO - FAISS index built and ready.
+2026-03-02 10:37:54,728 - INFO - System initialized. Using device: cpu
+2026-03-02 10:39:01,389 - INFO - User query received: Loan Agreement
+2026-03-02 10:39:01,398 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 10:39:01,619 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:39:01,619 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:39:14,798 - INFO - Response generated successfully.
+2026-03-02 10:39:35,924 - INFO - User query received: Introduction
+2026-03-02 10:39:35,925 - INFO - Retrieving top 3 contexts for query: 'Introduction'
+2026-03-02 10:39:36,168 - INFO - Retrieved 3 chunks. Min distance: 117.11433410644531
+2026-03-02 10:39:36,170 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:39:46,053 - INFO - Response generated successfully.
+2026-03-02 10:41:44,168 - INFO - User query received: Caregiver
+2026-03-02 10:41:44,169 - INFO - Retrieving top 3 contexts for query: 'Caregiver'
+2026-03-02 10:41:46,581 - INFO - Retrieved 3 chunks. Min distance: 95.38504028320312
+2026-03-02 10:41:46,582 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:41:48,179 - INFO - Response generated successfully.
+2026-03-02 10:52:06,236 - INFO - Loading models into memory...
+2026-03-02 10:52:18,445 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 10:52:18,446 - INFO - Scanning for .txt files...
+2026-03-02 10:52:18,695 - INFO - Found 10 files with extension .txt
+2026-03-02 10:52:18,706 - INFO - Scanning for .pdf files...
+2026-03-02 10:52:19,446 - INFO - Found 16 files with extension .pdf
+2026-03-02 10:52:19,734 - INFO - Split documents into 40 chunks.
+2026-03-02 10:52:19,734 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 10:52:31,359 - INFO - FAISS index built and ready.
+2026-03-02 10:52:31,389 - INFO - System initialized. Using device: cpu
+2026-03-02 10:52:59,854 - INFO - User query received: Loan Agreement
+2026-03-02 10:52:59,854 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 10:52:59,992 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 10:52:59,992 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 10:53:11,480 - INFO - Response generated successfully.
+2026-03-02 13:15:32,468 - INFO - Loading models into memory...
+2026-03-02 13:15:32,469 - ERROR - Error loading models: name 'self' is not defined
+2026-03-02 13:37:04,535 - INFO - Loading models into memory...
+2026-03-02 13:37:19,601 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 13:37:19,606 - INFO - Scanning for .txt files...
+2026-03-02 13:37:19,755 - INFO - Found 10 files with extension .txt
+2026-03-02 13:37:19,769 - INFO - Scanning for .pdf files...
+2026-03-02 13:37:21,578 - INFO - Found 16 files with extension .pdf
+2026-03-02 13:37:21,934 - INFO - Split documents into 40 chunks.
+2026-03-02 13:37:21,935 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 13:37:36,523 - INFO - FAISS index built and ready.
+2026-03-02 13:37:36,618 - INFO - System initialized. Using device: cpu
+2026-03-02 13:37:56,874 - INFO - User query received: Loan Agreement
+2026-03-02 13:37:56,876 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 13:37:59,287 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 13:37:59,291 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 13:38:11,872 - INFO - Response generated successfully.
+2026-03-02 13:38:24,577 - INFO - User query received: Introduction
+2026-03-02 13:38:24,578 - INFO - Retrieving top 3 contexts for query: 'Introduction'
+2026-03-02 13:38:25,839 - INFO - Retrieved 3 chunks. Min distance: 117.11433410644531
+2026-03-02 13:38:25,840 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 13:38:36,845 - INFO - Response generated successfully.
+2026-03-02 13:39:16,140 - INFO - User query received: Caregiver scenario
+2026-03-02 13:39:16,141 - INFO - Retrieving top 3 contexts for query: 'Caregiver scenario'
+2026-03-02 13:39:16,532 - INFO - Retrieved 3 chunks. Min distance: 93.5406494140625
+2026-03-02 13:39:16,533 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 13:39:27,108 - INFO - Response generated successfully.
+2026-03-02 14:00:10,361 - INFO - Loading models into memory...
+2026-03-02 14:00:22,353 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 14:00:22,356 - INFO - Scanning for .txt files...
+2026-03-02 14:00:22,380 - INFO - Found 10 files with extension .txt
+2026-03-02 14:00:22,394 - INFO - Scanning for .pdf files...
+2026-03-02 14:00:22,894 - INFO - Found 16 files with extension .pdf
+2026-03-02 14:00:23,178 - INFO - Split documents into 40 chunks.
+2026-03-02 14:00:23,178 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 14:00:33,318 - INFO - FAISS index built and ready.
+2026-03-02 14:00:33,329 - INFO - System initialized. Using device: cpu
+2026-03-02 14:02:01,357 - INFO - User query received: Loan Agreement
+2026-03-02 14:02:01,358 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 14:02:01,480 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 14:02:01,481 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 14:02:14,954 - INFO - Response generated successfully.
+2026-03-02 14:52:07,271 - INFO - Loading models into memory...
+2026-03-02 14:52:22,482 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 14:52:22,485 - INFO - Scanning for .txt files...
+2026-03-02 14:52:22,577 - INFO - Found 10 files with extension .txt
+2026-03-02 14:52:22,587 - INFO - Scanning for .pdf files...
+2026-03-02 14:52:24,017 - INFO - Found 16 files with extension .pdf
+2026-03-02 14:52:24,445 - INFO - Split documents into 40 chunks.
+2026-03-02 15:56:48,732 - INFO - Loading models into memory...
+2026-03-02 15:57:04,570 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 15:57:04,574 - INFO - Scanning for .txt files...
+2026-03-02 15:57:04,793 - INFO - Found 10 files with extension .txt
+2026-03-02 15:57:04,807 - INFO - Scanning for .pdf files...
+2026-03-02 15:57:06,968 - INFO - Found 16 files with extension .pdf
+2026-03-02 15:57:07,360 - INFO - Split documents into 40 chunks.
+2026-03-02 16:03:38,491 - INFO - Loading models into memory...
+2026-03-02 16:03:52,082 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 16:03:52,084 - INFO - Scanning for .txt files...
+2026-03-02 16:03:52,168 - INFO - Found 10 files with extension .txt
+2026-03-02 16:03:52,178 - INFO - Scanning for .pdf files...
+2026-03-02 16:03:52,954 - INFO - Found 16 files with extension .pdf
+2026-03-02 16:03:53,302 - INFO - Split documents into 40 chunks.
+2026-03-02 16:06:56,940 - INFO - Loading models into memory...
+2026-03-02 16:07:09,036 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 16:07:09,037 - INFO - Scanning for .txt files...
+2026-03-02 16:07:09,088 - INFO - Found 10 files with extension .txt
+2026-03-02 16:07:09,097 - INFO - Scanning for .pdf files...
+2026-03-02 16:07:09,738 - INFO - Found 16 files with extension .pdf
+2026-03-02 16:07:10,138 - INFO - Split documents into 40 chunks.
+2026-03-02 16:09:35,160 - INFO - Loading models into memory...
+2026-03-02 16:09:50,364 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-02 16:09:50,365 - INFO - Scanning for .txt files...
+2026-03-02 16:09:50,400 - INFO - Found 10 files with extension .txt
+2026-03-02 16:09:50,409 - INFO - Scanning for .pdf files...
+2026-03-02 16:09:51,230 - INFO - Found 16 files with extension .pdf
+2026-03-02 16:09:51,631 - INFO - Split documents into 40 chunks.
+2026-03-02 16:09:51,670 - INFO - Starting vectorization (embedding) on cpu...
+2026-03-02 16:10:03,834 - INFO - FAISS index built and ready.
+2026-03-02 16:10:03,846 - INFO - System initialized. Using device: cpu
+2026-03-02 16:10:23,040 - INFO - User query received: Loan Agreement
+2026-03-02 16:10:23,041 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-02 16:10:23,187 - INFO - Retrieved 3 chunks. Min distance: 71.51997375488281
+2026-03-02 16:10:23,187 - INFO - Sending prompt to FLAN-T5...
+2026-03-02 16:10:34,551 - INFO - Response generated successfully.
+2026-03-04 17:50:46,405 - INFO - Loading models into memory...
+2026-03-04 17:51:03,698 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 18:03:33,623 - INFO - Loading models into memory...
+2026-03-04 18:03:49,924 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 18:08:50,784 - INFO - Loading models into memory...
+2026-03-04 18:09:07,204 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 18:19:21,066 - INFO - Loading models into memory...
+2026-03-04 18:19:33,876 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 18:19:33,901 - INFO - Starting vectorization of 40 chunks...
+2026-03-04 18:19:49,255 - INFO - Vector store saved at ./embeddings/vector_store/chromadb\index.faiss
+2026-03-04 18:19:49,256 - INFO - FAISS index built and ready.
+2026-03-04 18:19:49,273 - INFO - System initialized. Using device: cpu
+2026-03-04 18:20:35,247 - INFO - User query received: Loan Agreement
+2026-03-04 18:20:35,248 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-04 18:20:35,694 - INFO - Retrieved 3 chunks. Min distance: 71.51998138427734
+2026-03-04 18:20:35,695 - INFO - Sending prompt to FLAN-T5...
+2026-03-04 18:20:52,220 - INFO - Response generated successfully.
+2026-03-04 18:21:22,394 - INFO - User query received: Caregiver
+2026-03-04 18:21:22,397 - INFO - Retrieving top 3 contexts for query: 'Caregiver'
+2026-03-04 18:21:22,676 - INFO - Retrieved 3 chunks. Min distance: 95.38504791259766
+2026-03-04 18:21:22,677 - INFO - Sending prompt to FLAN-T5...
+2026-03-04 18:21:28,677 - INFO - Response generated successfully.
+2026-03-04 18:33:27,117 - INFO - Loading models into memory...
+2026-03-04 18:33:41,035 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 18:33:41,043 - INFO - Loading existing vector store...
+2026-03-04 18:33:41,143 - INFO - FAISS index built and ready.
+2026-03-04 18:33:41,170 - INFO - System initialized. Using device: cpu
+2026-03-04 18:33:53,606 - INFO - User query received: Loan Agreement
+2026-03-04 18:33:53,606 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-04 18:33:53,948 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-04 18:33:53,948 - INFO - Sending prompt to FLAN-T5...
+2026-03-04 18:34:11,591 - INFO - Response generated successfully.
+2026-03-04 18:35:57,930 - INFO - User query received: Lease Agreement
+2026-03-04 18:35:57,932 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-04 18:36:00,751 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-04 18:36:00,752 - INFO - Sending prompt to FLAN-T5...
+2026-03-04 18:36:03,688 - INFO - Response generated successfully.
+2026-03-04 18:47:45,344 - INFO - Loading models into memory...
+2026-03-04 18:48:00,944 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 18:48:00,960 - INFO - Loading existing vector store...
+2026-03-04 18:48:00,983 - INFO - FAISS index built and ready.
+2026-03-04 18:48:01,017 - INFO - System initialized. Using device: cpu
+2026-03-04 19:08:17,398 - INFO - User query received: Loan Agreement
+2026-03-04 19:08:17,400 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-04 19:08:19,833 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-04 19:08:31,600 - INFO - Response generated successfully.
+2026-03-04 19:12:04,822 - INFO - Loading models into memory...
+2026-03-04 19:12:18,562 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 19:12:18,585 - INFO - Loading existing vector store...
+2026-03-04 19:12:18,674 - INFO - FAISS index built and ready.
+2026-03-04 19:12:18,737 - INFO - System initialized. Using device: cpu
+2026-03-04 19:13:08,549 - INFO - User query received: Lease Agreement
+2026-03-04 19:13:08,550 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-04 19:13:08,864 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-04 19:47:02,686 - INFO - Loading models into memory...
+2026-03-04 19:47:21,531 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-04 19:47:21,548 - INFO - Loading existing vector store...
+2026-03-04 19:47:21,569 - INFO - FAISS index built and ready.
+2026-03-04 19:47:21,597 - INFO - System initialized. Using device: cpu
+2026-03-04 19:47:33,905 - INFO - User query received: Loan Agreement
+2026-03-04 19:47:33,905 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-04 19:47:34,395 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-04 19:48:02,660 - INFO - User query received: Lease Agreement
+2026-03-04 19:48:02,666 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-04 19:48:03,134 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 10:17:38,769 - INFO - Loading models into memory...
+2026-03-05 10:17:55,479 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 10:17:55,505 - INFO - Loading existing vector store...
+2026-03-05 10:17:55,543 - INFO - FAISS index built and ready.
+2026-03-05 10:17:55,588 - INFO - System initialized. Using device: cpu
+2026-03-05 10:18:14,487 - INFO - User query received: Loan Agreement
+2026-03-05 10:18:14,489 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 10:18:15,027 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 10:22:07,241 - INFO - Loading models into memory...
+2026-03-05 10:22:20,893 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 10:22:20,902 - INFO - Loading existing vector store...
+2026-03-05 10:22:20,924 - INFO - FAISS index built and ready.
+2026-03-05 10:22:20,952 - INFO - System initialized. Using device: cpu
+2026-03-05 10:22:45,291 - INFO - Retrieving top 3 contexts for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:45,588 - INFO - Retrieved 3 chunks for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:45,588 - INFO - Retrieving top 3 contexts for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:45,712 - INFO - Retrieved 3 chunks for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:46,410 - INFO - Retrieving top 3 contexts for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:46,567 - INFO - Retrieved 3 chunks for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:46,568 - INFO - Retrieving top 3 contexts for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:46,711 - INFO - Retrieved 3 chunks for query: 'What is the monthly rent amount?'
+2026-03-05 10:22:57,228 - INFO - Retrieving top 3 contexts for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,362 - INFO - Retrieving top 3 contexts for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,506 - INFO - Retrieved 3 chunks for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,507 - INFO - Retrieving top 3 contexts for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,524 - INFO - Retrieved 3 chunks for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,524 - INFO - Retrieving top 3 contexts for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,671 - INFO - Retrieved 3 chunks for query: 'Is there a pet deposit?'
+2026-03-05 10:22:57,682 - INFO - Retrieved 3 chunks for query: 'Is there a pet deposit?'
+2026-03-05 10:22:59,638 - INFO - Test Complete. Avg Accuracy: 0.0
+2026-03-05 10:23:02,278 - INFO - Test Complete. Avg Accuracy: 0.0
+2026-03-05 10:23:14,286 - INFO - User query received: Loan Agreement
+2026-03-05 10:23:14,286 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 10:23:14,418 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 10:23:21,999 - INFO - Retrieving top 3 contexts for query: 'What is the monthly rent amount?'
+2026-03-05 10:23:22,103 - INFO - Retrieved 3 chunks for query: 'What is the monthly rent amount?'
+2026-03-05 10:23:22,103 - INFO - Retrieving top 3 contexts for query: 'What is the monthly rent amount?'
+2026-03-05 10:23:22,196 - INFO - Retrieved 3 chunks for query: 'What is the monthly rent amount?'
+2026-03-05 10:23:23,120 - INFO - Retrieving top 3 contexts for query: 'Is there a pet deposit?'
+2026-03-05 10:23:23,211 - INFO - Retrieved 3 chunks for query: 'Is there a pet deposit?'
+2026-03-05 10:23:23,211 - INFO - Retrieving top 3 contexts for query: 'Is there a pet deposit?'
+2026-03-05 10:23:23,300 - INFO - Retrieved 3 chunks for query: 'Is there a pet deposit?'
+2026-03-05 10:23:24,185 - INFO - Test Complete. Avg Accuracy: 0.0
+2026-03-05 10:24:21,516 - INFO - User query received: Lease Agreement
+2026-03-05 10:24:21,519 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-05 10:24:21,733 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 10:27:37,678 - INFO - Loading models into memory...
+2026-03-05 10:27:52,622 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 10:27:52,636 - INFO - Loading existing vector store...
+2026-03-05 10:27:52,654 - INFO - FAISS index built and ready.
+2026-03-05 10:27:52,686 - INFO - System initialized. Using device: cpu
+2026-03-05 10:28:14,186 - INFO - User query received: Loan Agreement
+2026-03-05 10:28:14,187 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 10:28:14,514 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 10:29:18,222 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 10:29:18,539 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 10:29:18,539 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 10:29:18,632 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 10:29:24,387 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-05 10:29:24,487 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 10:29:24,488 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-05 10:29:24,572 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 10:29:27,766 - INFO - Test Complete. Avg Accuracy: 0.5
+2026-03-05 17:11:28,752 - INFO - Loading models into memory...
+2026-03-05 17:11:52,465 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 17:11:52,589 - INFO - Loading existing vector store...
+2026-03-05 17:11:52,650 - INFO - FAISS index built and ready.
+2026-03-05 17:11:52,687 - INFO - System initialized. Using device: cpu
+2026-03-05 17:14:23,498 - INFO - User query received: Loan Agreement
+2026-03-05 17:14:23,499 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:14:24,318 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:14:24,348 - ERROR - Generation error: invalid syntax. Perhaps you forgot a comma? (llm_client.py, line 22)
+2026-03-05 17:15:54,002 - INFO - Loading models into memory...
+2026-03-05 17:16:09,802 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 17:16:09,817 - INFO - Loading existing vector store...
+2026-03-05 17:16:09,843 - INFO - FAISS index built and ready.
+2026-03-05 17:16:09,872 - INFO - System initialized. Using device: cpu
+2026-03-05 17:16:54,250 - INFO - User query received: Loan Agreement
+2026-03-05 17:16:54,250 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:16:54,684 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:16:54,719 - ERROR - Generation error: 'LLMClient' object has no attribute 'cfg'
+2026-03-05 17:26:23,286 - INFO - Loading models into memory...
+2026-03-05 17:26:39,722 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 17:26:39,731 - INFO - Loading existing vector store...
+2026-03-05 17:26:39,755 - INFO - FAISS index built and ready.
+2026-03-05 17:26:39,791 - INFO - System initialized. Using device: cpu
+2026-03-05 17:28:22,968 - INFO - User query received: Loan Agreement
+2026-03-05 17:28:22,969 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:28:23,301 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:28:23,335 - ERROR - Generation error: name 'tokens_to_gen' is not defined
+2026-03-05 17:29:58,495 - INFO - Loading models into memory...
+2026-03-05 17:30:14,171 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 17:30:14,179 - INFO - Loading existing vector store...
+2026-03-05 17:30:14,194 - INFO - FAISS index built and ready.
+2026-03-05 17:30:14,203 - INFO - System initialized. Using device: cpu
+2026-03-05 17:31:44,451 - INFO - User query received: Loan Agreement
+2026-03-05 17:31:44,451 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:31:44,685 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:32:36,782 - INFO - User query received: Lease Agreement
+2026-03-05 17:32:36,783 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-05 17:32:37,152 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 17:43:16,484 - INFO - Loading models into memory...
+2026-03-05 17:43:31,959 - INFO - Preparing knowledge base from: ./content/knowledge_base/
+2026-03-05 17:43:31,967 - INFO - Loading existing vector store...
+2026-03-05 17:43:31,984 - INFO - FAISS index built and ready.
+2026-03-05 17:43:32,010 - INFO - System initialized. Using device: cpu
+2026-03-05 17:45:24,072 - INFO - User query received: Loan Agreement
+2026-03-05 17:45:24,072 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:45:24,353 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:45:50,494 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:45:50,835 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:45:50,836 - INFO - Retrieving top 3 contexts for query: 'Loan Agreement'
+2026-03-05 17:45:50,942 - INFO - Retrieved 3 chunks for query: 'Loan Agreement'
+2026-03-05 17:45:53,583 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-05 17:45:53,661 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 17:45:53,662 - INFO - Retrieving top 3 contexts for query: 'Lease Agreement'
+2026-03-05 17:45:53,748 - INFO - Retrieved 3 chunks for query: 'Lease Agreement'
+2026-03-05 17:45:56,651 - INFO - Test Complete. Avg Accuracy: 0.5

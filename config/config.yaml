@@ -1,0 +1,18 @@
+paths:
+  knowledge_base: "./content/knowledge_base/"
+  logs: "./logs/app.log"
+
+models:
+  ctx_encoder: "facebook/dpr-ctx_encoder-single-nq-base"
+  q_encoder: "facebook/dpr-question_encoder-single-nq-base"
+  gen_model: "google/flan-t5-base"
+
+retrieval:
+  chunk_size: 500
+  chunk_overlap: 50
+  k_neighbors: 3
+
+generation:
+  max_new_tokens: 150
+  temperature: 0.7
+  top_p: 0.9
