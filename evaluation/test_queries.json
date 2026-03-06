@@ -7,6 +7,6 @@
     {
         "query": "Lease Agreement",
         "expected_answer": "A contract between a landlord and tenant granting the tenant the right to use property for a specified time in exchange for rent.",
-        "context_keywords": ["landlort", "tenant", "lease"]
+        "context_keywords": ["landlord", "tenant", "lease"]
     }
 ]
