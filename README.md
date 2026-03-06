@@ -1,5 +1,3 @@
-A streamlit based webapp deployed at https://ai-rag-customer-support-agent-ddjhgrakccv8dqueammcgz.streamlit.app/
-
 ## Overview of the App
 The objective of this project is to design and implement an AI-powered customer support agent using Retrieval-Augmented Generation (RAG) that retrieves accurate information from a curated knowledge base before generating responses. The system ensures grounded, explainable, and reliable answers, significantly reducing human agent workload while improving response accuracy and customer satisfaction.
 
@@ -96,13 +94,9 @@ RecursiveCharacterTextSplitter (from langchain_text_splitters)
 
 
 ## Demo App
-https://ai-rag-customer-support-agent-ddjhgrakccv8dqueammcgz.streamlit.app/
-
 
 
 ## Run it locally
-pip install -r requirements.txt
-streamlit run genaimaincustsupport.py
 
 
 
