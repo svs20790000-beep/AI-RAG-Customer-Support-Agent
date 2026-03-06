@@ -8,7 +8,7 @@ pipreqs
 
 2.content\knowledge_base folder - This folder contains txt files.  
 
-3.genaimaincustsupport.py - core programming using Retrieval-Augmented Generation (RAG)
+3. core programming using Retrieval-Augmented Generation (RAG)
 #import the library
 torch
 DPRQuestionEncoder,DPRQuestionEncoderTokenizer,DPRContextEncoder,DPRContextEncoderTokenizer (from transformers)
